@@ -1,0 +1,18 @@
+.cover{
+    position: absolute;
+    background-color: rgba(144,164,174, .4);
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 45;
+    border: 0;
+}
+.layout{
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .layout{
+        padding-left: 16rem !important;
+    }
+}

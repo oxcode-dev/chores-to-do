@@ -1,15 +1,14 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import Task from './Modules/task'
 
 Vue.use(Vuex)
 
-export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
+const store = new Vuex.Store({
   modules: {
-  }
+    task: Task,
+  },
+  // strict: true
 })
+
+export default store;
